@@ -6,7 +6,6 @@ export class Info {
   nationality: string = 'Portuguese'
   languages: Record<string, string>[] = [{ 'English': 'C1' }, { 'Portuguese': 'native' }]
   occupation: string = 'Go Dev || Software Engineer'
-  company: string = 'KCS iT'
   university: string = 'Universidade Lusófona do Porto'
   freetime: string[] = ['Nature', 'Futsal', 'Classic Cars', 'Pool (billiard)']
 
@@ -19,7 +18,7 @@ export class Programming {
   frameworks: string[] = ['Gin/Fiber', 'Spring', 'Django', 'React']
   databases: string[] = ['PostgreSQL', 'MongoDB', 'MySQL']
   cloud: string[] = ['AWS', 'Azure']
-  infrastructure string[] = ['Terraform', 'Docker']
+  infrastructure string[] = ['Terraform', 'Docker', 'Kubernetes']
   studying: string[] = ['Data Science']
   projects: string[] = [] // private
 
@@ -27,7 +26,7 @@ export class Programming {
 
 export class Social {
 
-  github: string = 'Chokopikku'
+  github: string = 'frtpereira'
   linkedin: string = 'fabio-rafael-pereira'
 
 }
